@@ -1,0 +1,54 @@
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+}
+a{
+    color: #f9f6f6;
+}
+/* Navbar Section */
+.nav{
+    width: 20%;
+    left: -17.85%;
+}
+#closeNav{
+    display: none;
+}
+#openNav{
+    display: block;
+}
+.navHeader{
+    left: 10%;
+    width: 20%;
+}
+.navList a{
+    position: relative;
+    top: 300px;
+}
+/* The First Page[Home] */
+.layer{
+    overflow: hidden;
+    top: 100%;
+    transition: all 0.5s;
+}
+#home .col-md-3:hover .layer{
+    top: 0%;
+}
+/* Catagory Section */
+.meal-layer{
+    overflow: hidden;
+    top: 100%;
+    transition: all 0.5s;
+}
+.catagoryPage .col-md-3:hover .meal-layer{
+    top: 0%;
+    padding: 10px;
+}
+/* Search Section */
+.searchPage input::placeholder{
+    color: aliceblue;
+    opacity: 0.7;
+}
+#search{
+    display: none;
+}
+
